@@ -7,3 +7,19 @@
 #                       Sinon, elle est bissextile.
 #
 # Résultat attendu : Un message affichant "Année bissextile" ou "Année non bissextile"
+
+
+def calcul(annee):
+    if (annee % 4) != 0:
+        print("Elle n'est pas bissextile 1")
+    else:
+        if (annee % 100) == 0:
+            if (annee % 400) == 0:
+                print("Elle est bissextile 2")
+            else:
+                print("Elle n'est pas bissextile 3")
+        else:
+            print("Elle n'est pas bissextile 4")
+
+
+calcul(2012)

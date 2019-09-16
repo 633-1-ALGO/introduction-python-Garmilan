@@ -4,3 +4,11 @@
 
 a = 11
 b = 42
+
+c = b # c42
+b = a # b11
+a = c # a42
+
+print("a :", a)
+print("b :", b)
+

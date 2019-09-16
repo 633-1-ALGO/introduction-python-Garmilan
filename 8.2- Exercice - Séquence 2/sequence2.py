@@ -4,3 +4,11 @@
 
 nb_articles = 13
 prix_ht = 42.75
+
+def printF(nbArt, prixUnitaire):
+    prixSansTaxe = nbArt*prixUnitaire
+    prixAvecTaxe = prixSansTaxe*107.7/100
+    print("Le prix TTC est de",prixAvecTaxe, "chf.")
+
+
+printF(nb_articles, prix_ht)
