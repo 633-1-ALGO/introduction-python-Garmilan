@@ -11,15 +11,15 @@
 
 def calcul(annee):
     if (annee % 4) != 0:
-        print("Elle n'est pas bissextile 1")
+        print("Elle n'est pas bissextile")
     else:
-        if (annee % 100) == 0:
-            if (annee % 400) == 0:
-                print("Elle est bissextile 2")
+        if (annee % 100) != 0:
+            if (annee % 400) != 0:
+                print("Elle est bissextile")
             else:
-                print("Elle n'est pas bissextile 3")
+                print("Elle n'est pas bissextile")
         else:
-            print("Elle n'est pas bissextile 4")
+            print("Elle n'est pas bissextile")
 
 
-calcul(2012)
+calcul(2013)
