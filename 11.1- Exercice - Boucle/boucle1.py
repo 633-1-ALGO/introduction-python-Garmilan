@@ -13,7 +13,7 @@ for i in A:
    cpt = cpt + 1
 
 moy = nb / cpt
-print("La moyenne est", moy)
+print("La moyenne est de", moy)
 
 
 
