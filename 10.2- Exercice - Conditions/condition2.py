@@ -8,7 +8,6 @@
 #
 # Résultat attendu : Un message affichant "Année bissextile" ou "Année non bissextile"
 
-
 def calcul(annee):
     if (annee % 4) != 0:
         print("Elle n'est pas bissextile")
